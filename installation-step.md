@@ -4,8 +4,8 @@ This guide outlines the steps to deploy a FastAPI application directly on a serv
 
 ### Server Preparation
 [ ] Update Ubuntu packages
-[ ] Install PostgreSQL server and client
 [ ] Create a dedicated system user for the application
+[ ] Install PostgreSQL server and client
 [ ] Configure firewall (UFW): allow SSH (22), HTTP (80), HTTPS (443), block all other ports by default
 
 ### Database Setup
