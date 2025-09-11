@@ -3,10 +3,10 @@
 This guide outlines the steps to deploy a FastAPI application directly on a server without Kubernetes. It includes server preparation, database setup, application deployment, process management, and securing the application with HTTPS.
 
 ### Server Preparation
+[ ] Copy ssh key
 [ ] Update Ubuntu packages
 [ ] Create a dedicated system user for the application
 [ ] Install PostgreSQL server and client
-[ ] Configure firewall (UFW): allow SSH (22), HTTP (80), HTTPS (443), block all other ports by default
 
 ### Database Setup
 [ ] Configure PostgreSQL (create database, user, and set permissions)
@@ -23,13 +23,15 @@ This guide outlines the steps to deploy a FastAPI application directly on a serv
 [ ] Install and configure a process manager (systemd service)
 [ ] Create service file to manage FastAPI application lifecycle
 [ ] Enable and start the service
-[ ] Verify the service runs automatically on system boot
+[ ] Verify the service runs
 
 ### Reverse Proxy Setup
 [ ] Install and configure Nginx as reverse proxy
 [ ] Create Nginx server block configuration for your domain
 [ ] Configure proxy settings to forward requests to FastAPI
 [ ] Test Nginx configuration and restart service
+[ ] Configure firewall (UFW): allow SSH (22), HTTP (80), HTTPS (443), block all other ports by default
+
 
 ### HTTPS Configuration
 [ ] Install Certbot (Let's Encrypt client)
