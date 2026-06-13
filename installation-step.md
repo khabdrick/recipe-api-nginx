@@ -3,6 +3,7 @@
 This guide outlines the steps to deploy a FastAPI application directly on a server without Kubernetes. It includes server preparation, database setup, application deployment, process management, and securing the application with HTTPS.
 
 ### Server Preparation
+
 [] Copy ssh key
 [] Update Ubuntu packages
 [ ] Create a dedicated system user for the application
