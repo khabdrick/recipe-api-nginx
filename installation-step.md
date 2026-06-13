@@ -4,10 +4,10 @@ This guide outlines the steps to deploy a FastAPI application directly on a serv
 
 ### Server Preparation
 
-- [] Copy ssh key
-[] Update Ubuntu packages
-[ ] Create a dedicated system user for the application
-[ ] Install PostgreSQL server and client
+- [ ] Copy ssh key
+- [ ] Update Ubuntu packages
+- [ ] Create a dedicated system user for the application
+- [ ] Install PostgreSQL server and client
 
 ### Database Setup
 [ ] Configure PostgreSQL (create database, user, and set permissions)
